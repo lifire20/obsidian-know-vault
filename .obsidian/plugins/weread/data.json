@@ -1,0 +1,321 @@
+{
+  "loginMethod": "scan",
+  "cookies": [
+    {
+      "name": "wr_fp",
+      "value": "731344169"
+    },
+    {
+      "name": "wr_skey",
+      "value": "73wABGtv"
+    },
+    {
+      "name": "wr_vid",
+      "value": "925875533"
+    },
+    {
+      "name": "wr_ql",
+      "value": "0"
+    },
+    {
+      "name": "wr_rt",
+      "value": "web@LGEPN4o79do8IxR_yY~_AL"
+    },
+    {
+      "name": "wr_gid",
+      "value": "219979045"
+    }
+  ],
+  "noteLocation": "06.日常阅读",
+  "dailyNotesLocation": "/",
+  "insertAfter": "<!-- start of weread -->",
+  "insertBefore": "<!-- end of weread -->",
+  "dailyNotesFormat": "YYYY-MM-DD",
+  "lastCookieTime": 1794809717512,
+  "isCookieValid": true,
+  "user": "",
+  "userVid": "925875533",
+  "userAvatar": "",
+  "template": "",
+  "noteCountLimit": -1,
+  "subFolderType": "category",
+  "fileNameType": "BOOK_NAME",
+  "removeParens": false,
+  "removeParensWhitelist": "",
+  "dailyNotesToggle": false,
+  "notesBlacklist": "",
+  "notesWhitelist": "",
+  "syncMode": "blacklist",
+  "showEmptyChapterTitleToggle": false,
+  "convertTags": false,
+  "saveArticleToggle": false,
+  "saveReadingInfoToggle": true,
+  "readingOpenMode": "TAB",
+  "trimBlocks": false,
+  "cookieCloudInfo": {
+    "serverUrl": "",
+    "uuid": "",
+    "password": ""
+  },
+  "cookieAutoRefreshToggle": false,
+  "cookieRefreshInterval": 12,
+  "scheduledSyncToggle": true,
+  "scheduledSyncInterval": 360,
+  "lastSyncTime": 1794788261787,
+  "lastSyncBookCount": 0,
+  "lastSyncBookTitles": [],
+  "syncLogs": [
+    {
+      "id": "sync-1794788261392",
+      "timestamp": 1794788261392,
+      "totalBooks": 21,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 0.394,
+      "notes": [],
+      "success": true
+    },
+    {
+      "id": "sync-1794766661379",
+      "timestamp": 1794766661379,
+      "totalBooks": 21,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 0.397,
+      "notes": [],
+      "success": true
+    },
+    {
+      "id": "sync-1794745096542",
+      "timestamp": 1794745096542,
+      "totalBooks": 21,
+      "syncedBooks": 21,
+      "skippedBooks": 0,
+      "duration": 9.921,
+      "notes": [
+        {
+          "bookId": "3300230357",
+          "title": "鼠疫",
+          "filePath": "06.日常阅读/文学/鼠疫.md"
+        },
+        {
+          "bookId": "CB_2xFCwbCx55xO75a75B5Pt7sN",
+          "title": "8ab840cede7af93e14de46ca7f751088_1236415667508416711_m.txt",
+          "filePath": "06.日常阅读/未分类/8ab840cede7af93e14de46ca7f751088_1236415667508416711_m.txt.md"
+        },
+        {
+          "bookId": "40795798",
+          "title": "克拉多克太太（毛姆文集）",
+          "filePath": "06.日常阅读/文学/克拉多克太太（毛姆文集）.md"
+        },
+        {
+          "bookId": "814146",
+          "title": "一个叫欧维的男人决定去死（同名电影原著）",
+          "filePath": "06.日常阅读/精品小说/一个叫欧维的男人决定去死（同名电影原著）.md"
+        },
+        {
+          "bookId": "3300044710",
+          "title": "瓦尔登湖",
+          "filePath": "06.日常阅读/文学/瓦尔登湖.md"
+        },
+        {
+          "bookId": "26435429",
+          "title": "檀香刑【中国诺奖得主代表作】",
+          "filePath": "06.日常阅读/精品小说/檀香刑【中国诺奖得主代表作】.md"
+        },
+        {
+          "bookId": "856086",
+          "title": "牛虻（经典译林）",
+          "filePath": "06.日常阅读/文学/牛虻（经典译林）.md"
+        },
+        {
+          "bookId": "38818164",
+          "title": "罪与罚",
+          "filePath": "06.日常阅读/文学/罪与罚.md"
+        },
+        {
+          "bookId": "32206126",
+          "title": "房思琪的初恋乐园（精编版）",
+          "filePath": "06.日常阅读/精品小说/房思琪的初恋乐园（精编版）.md"
+        },
+        {
+          "bookId": "822995",
+          "title": "明朝那些事儿（全集）",
+          "filePath": "06.日常阅读/历史/明朝那些事儿（全集）.md"
+        },
+        {
+          "bookId": "23507652",
+          "title": "狂人日记：鲁迅小说集",
+          "filePath": "06.日常阅读/文学/狂人日记：鲁迅小说集.md"
+        },
+        {
+          "bookId": "3300194036",
+          "title": "克莱因壶",
+          "filePath": "06.日常阅读/精品小说/克莱因壶.md"
+        },
+        {
+          "bookId": "834465",
+          "title": "许三观卖血记",
+          "filePath": "06.日常阅读/精品小说/许三观卖血记.md"
+        },
+        {
+          "bookId": "3300020527",
+          "title": "解忧杂货店",
+          "filePath": "06.日常阅读/精品小说/解忧杂货店.md"
+        },
+        {
+          "bookId": "3300098320",
+          "title": "朝闻道",
+          "filePath": "06.日常阅读/精品小说/朝闻道.md"
+        },
+        {
+          "bookId": "911444",
+          "title": "四世同堂（套装共2册）",
+          "filePath": "06.日常阅读/精品小说/四世同堂（套装共2册）.md"
+        },
+        {
+          "bookId": "3300157203",
+          "title": "苦恼（轻经典）",
+          "filePath": "06.日常阅读/精品小说/苦恼（轻经典）.md"
+        },
+        {
+          "bookId": "CB_AmaGyaGvr2zq73i75BAZ5Awk",
+          "title": "《本能游戏》作者在下小神j补番.txt",
+          "filePath": "06.日常阅读/未分类/《本能游戏》作者在下小神j补番.txt.md"
+        },
+        {
+          "bookId": "31808219",
+          "title": "卡拉马佐夫兄弟（套装上下册）（陀思妥耶夫斯基文集2015）",
+          "filePath": "06.日常阅读/文学/卡拉马佐夫兄弟（套装上下册）（陀思妥耶夫斯基文集2015）.md"
+        },
+        {
+          "bookId": "3300151423",
+          "title": "午餐（轻经典）",
+          "filePath": "06.日常阅读/精品小说/午餐（轻经典）.md"
+        },
+        {
+          "bookId": "695233",
+          "title": "三体全集（全三册）",
+          "filePath": "06.日常阅读/精品小说/三体全集（全三册）.md"
+        }
+      ],
+      "success": true
+    },
+    {
+      "id": "sync-1789793444438",
+      "timestamp": 1789793444438,
+      "totalBooks": 0,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 0.528,
+      "notes": [],
+      "success": true
+    },
+    {
+      "id": "sync-1789782034240",
+      "timestamp": 1789782034240,
+      "totalBooks": 0,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 0.063,
+      "notes": [],
+      "success": true
+    },
+    {
+      "id": "sync-1789707044470",
+      "timestamp": 1789707044470,
+      "totalBooks": 0,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 0.629,
+      "notes": [],
+      "success": true
+    },
+    {
+      "id": "sync-1789705566288",
+      "timestamp": 1789705566288,
+      "totalBooks": 0,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 0.05,
+      "notes": [],
+      "success": true
+    },
+    {
+      "id": "sync-1789642244518",
+      "timestamp": 1789642244518,
+      "totalBooks": 0,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 0.589,
+      "notes": [],
+      "success": true
+    },
+    {
+      "id": "sync-1789197981817",
+      "timestamp": 1789197981817,
+      "totalBooks": 0,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 0.481,
+      "notes": [],
+      "success": true
+    },
+    {
+      "id": "sync-1789191586354",
+      "timestamp": 1789191586354,
+      "totalBooks": 0,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 0.889,
+      "notes": [],
+      "success": true
+    }
+  ],
+  "bookshelfSortMode": "recent",
+  "bookshelfGroupByYear": false,
+  "bookshelfDefaultSyncStatusFilter": "all",
+  "themes": [
+    {
+      "id": "builtin_merged",
+      "name": "合并式模板",
+      "description": "划线和想法 inline 展示，适合快速回顾",
+      "template": "---\nisbn: {{metaData.isbn}}\nlastReadDate: {{metaData.lastReadDate}}\n---\n# 元数据\n> [!abstract] {{metaData.title}}\n> - ![ {{metaData.title}}|200]({{metaData.cover}})\n> - 书名： {{metaData.title}}\n> - 作者： {{metaData.author}}\n> - 简介： {% set intro = metaData.intro | replace(\"\\n\",\"\") | replace(\"\\r\",\"\") %}{{intro}}\n> - 出版时间： {{metaData.publishTime}}\n> - ISBN： {{metaData.isbn}}\n> - 分类： {{metaData.category}}\n> - 出版社： {{metaData.publisher}}\n> - PC地址：{{metaData.pcUrl}}\n\n# 高亮划线\n{% for chapter in chapterHighlights %}\n{% if chapter.level == 1 %}## {{chapter.chapterTitle}}{% elif chapter.level == 2 %}### {{chapter.chapterTitle}}{% elif chapter.level == 3 %}#### {{chapter.chapterTitle}}{% endif %}\n{% for highlight in chapter.highlights %}{% if highlight.reviewContent %}\n> 📌 {{ highlight.markText |trim }} ^{{highlight.bookmarkId}}\n- 💭 {{highlight.reviewContent}} - ⏱ {{highlight.createTime}} {% else %}\n> 📌 {{ highlight.markText |trim }} \n> ⏱ {{highlight.createTime}} ^{{highlight.bookmarkId}}{% endif %}\n{% endfor %}{% endfor %}\n# 读书笔记\n{% for chapter in bookReview.chapterReviews %}{% if chapter.reviews or chapter.chapterReview %}\n## {{chapter.chapterTitle}}\n{% if chapter.chapterReviews %}{% for chapterReview in chapter.chapterReviews %}\n### 章节评论 No.{{loop.index}}\n- {{chapterReview.content}} ^{{chapterReview.reviewId}}\n    - ⏱ {{chapterReview.createTime}} {% endfor %}{% endif %}{% if chapter.reviews %}{% for review in chapter.reviews %}\n### 划线评论\n> 📌 {{review.abstract |trim }}  ^{{review.reviewId}}\n    - 💭 {{review.content}}\n    - ⏱ {{review.createTime}}\n{% endfor %} {% endif %} {% endif %} {% endfor %}\n# 本书评论\n{% if bookReview.bookReviews %}{% for bookReview in bookReview.bookReviews %}\n## 书评 No.{{loop.index}} \n{{bookReview.mdContent}} ^{{bookReview.reviewId}}\n⏱ {{bookReview.createTime}}\n{% endfor %}{% endif %}\n",
+      "trimBlocks": false,
+      "isBuiltIn": true,
+      "isReadOnly": true,
+      "source": "builtin"
+    },
+    {
+      "id": "builtin_separated",
+      "name": "分离式模板",
+      "description": "先展示纯划线，笔记统一在底部，适合整理归纳",
+      "template": "\n---\nisbn: {{metaData.isbn}}\nlastReadDate: {{metaData.lastReadDate}}\n---\n《{{metaData.title}}》\n{{metaData.author}}\n{{metaData.noteCount}}个笔记\n\n# 高亮划线\n{% for chapter in chapterHighlights %}\n{% if chapter.level == 1 %}## {{chapter.chapterTitle}}{% elif chapter.level == 2 %}### {{chapter.chapterTitle}}{% elif chapter.level == 3 %}#### {{chapter.chapterTitle}}{% endif %}\n{% for highlight in chapter.highlights %}\n> 📌 {{ highlight.markText |trim }} ^{{highlight.bookmarkId}}\n{% endfor %}{% endfor %}\n\n# 笔记汇总\n{% for chapter in chapterHighlights %}{% for highlight in chapter.highlights %}{% if highlight.reviewContent %}\n## {{chapter.chapterTitle}} 的想法\n{{highlight.reviewContent}}\n> 📌 {{ highlight.markText |trim }}\n\n{% endif %}{% endfor %}{% endfor %}\n{% if bookReview.bookReviews %}{% for bookReview in bookReview.bookReviews %}\n\n# 书评\n{{bookReview.createTime}}\n{{bookReview.mdContent}}\n{% endfor %}{% endif %}\n",
+      "trimBlocks": false,
+      "isBuiltIn": true,
+      "isReadOnly": true,
+      "source": "builtin"
+    },
+    {
+      "id": "builtin_official",
+      "name": "微信官方笔记主题",
+      "description": "详细的元数据信息，适合生成书籍笔记",
+      "template": "---\nisbn: {{metaData.isbn}}\nlastReadDate: {{metaData.lastReadDate}}\n---\n《{{metaData.title}}》\n{{metaData.author}}\n{{metaData.noteCount}}个笔记\n{% if bookReview.bookReviews %}{% for bookReview in bookReview.bookReviews %}\n◆ 点评\n{{bookReview.createTime}}\n{{bookReview.mdContent}}{% endfor%}{% endif %}\n{% for chapter in chapterHighlights %}\n{% if chapter.level == 1 %}## ◆ {{chapter.chapterTitle}}{% elif chapter.level == 2 %}### ◆ {{chapter.chapterTitle}}{% elif chapter.level == 3 %}#### ◆ {{chapter.chapterTitle}}{% endif %}\n{% for highlight in chapter.highlights %}{% if highlight.reviewContent %}\n\n{{highlight.createTime}} 发表想法\n{{highlight.reviewContent}}\n\n> {{ highlight.markText |trim }} ^{{highlight.bookmarkId}}\n {% else %}\n\n> {{ highlight.markText |trim }} ^{{highlight.bookmarkId}}{% endif %}{% endfor %}{% endfor %}\n",
+      "trimBlocks": false,
+      "isBuiltIn": true,
+      "isReadOnly": true,
+      "source": "builtin"
+    },
+    {
+      "id": "user_1778240093793",
+      "name": "合并式模板 (副本)",
+      "description": "划线和想法 inline 展示，适合快速回顾",
+      "template": "---\nisbn: {{metaData.isbn}}\nlastReadDate: {{metaData.lastReadDate}}\n---\n# 元数据\n> [!abstract] {{metaData.title}}\n> - ![ {{metaData.title}}|200]({{metaData.cover}})\n> - 书名： {{metaData.title}}\n> - 作者： {{metaData.author}}\n> - 简介： {% set intro = metaData.intro | replace(\"\\n\",\"\") | replace(\"\\r\",\"\") %}{{intro}}\n> - 出版时间： {{metaData.publishTime}}\n> - ISBN： {{metaData.isbn}}\n> - 分类： {{metaData.category}}\n> - 出版社： {{metaData.publisher}}\n> - PC地址：{{metaData.pcUrl}}\n\n# 高亮划线\n{% for chapter in chapterHighlights %}\n{% if chapter.level == 1 %}## {{chapter.chapterTitle}}{% elif chapter.level == 2 %}### {{chapter.chapterTitle}}{% elif chapter.level == 3 %}#### {{chapter.chapterTitle}}{% endif %}\n{% for highlight in chapter.highlights %}{% if highlight.reviewContent %}\n> 📌 {{ highlight.markText |trim }} ^{{highlight.bookmarkId}}\n- 💭 {{highlight.reviewContent}} - ⏱ {{highlight.createTime}} {% else %}\n> 📌 {{ highlight.markText |trim }} \n> ⏱ {{highlight.createTime}} ^{{highlight.bookmarkId}}{% endif %}\n{% endfor %}{% endfor %}\n# 读书笔记\n{% for chapter in bookReview.chapterReviews %}{% if chapter.reviews or chapter.chapterReview %}\n## {{chapter.chapterTitle}}\n{% if chapter.chapterReviews %}{% for chapterReview in chapter.chapterReviews %}\n### 章节评论 No.{{loop.index}}\n- {{chapterReview.content}} ^{{chapterReview.reviewId}}\n    - ⏱ {{chapterReview.createTime}} {% endfor %}{% endif %}{% if chapter.reviews %}{% for review in chapter.reviews %}\n### 划线评论\n> 📌 {{review.abstract |trim }}  ^{{review.reviewId}}\n    - 💭 {{review.content}}\n    - ⏱ {{review.createTime}}\n{% endfor %} {% endif %} {% endif %} {% endfor %}\n# 本书评论\n{% if bookReview.bookReviews %}{% for bookReview in bookReview.bookReviews %}\n## 书评 No.{{loop.index}} \n{{bookReview.mdContent}} ^{{bookReview.reviewId}}\n⏱ {{bookReview.createTime}}\n{% endfor %}{% endif %}\n",
+      "trimBlocks": false,
+      "isBuiltIn": false,
+      "isReadOnly": false,
+      "source": "custom"
+    }
+  ],
+  "activeThemeId": "user_1778240093793"
+}

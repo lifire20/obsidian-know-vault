@@ -1,0 +1,49 @@
+.sjdev-offline-books {
+  color: var(--text-normal);
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  min-width: 0;
+  container: sjdev-books / inline-size;
+}
+.sjdev-offline-books *, .sjdev-offline-books *::before, .sjdev-offline-books *::after { box-sizing: border-box; }
+.sjdev-offline-books .sjdev-offline-books__header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .6rem; }
+.sjdev-offline-books .sjdev-offline-books__eyebrow { color: var(--text-muted); letter-spacing: .08em; font-size: .72em; margin: 0 0 .35rem; font-weight: 650; }
+.sjdev-offline-books .sjdev-offline-books__title { font-size: 1.15em; margin: 0; line-height: 1.35; }
+.sjdev-offline-books .sjdev-offline-books__badge { padding: .2rem .55rem; border: 1px solid var(--background-modifier-border); background: color-mix(in srgb, var(--color-orange) 12%, var(--background-primary)); border-radius: 5px; font-size: .75em; font-weight: 650; }
+.sjdev-offline-books .sjdev-offline-books__notice { margin: .85rem 0 1rem; font-size: .8em; color: var(--text-muted); line-height: 1.7; }
+.sjdev-offline-books .sjdev-offline-books__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.sjdev-offline-books .sjdev-offline-books__book { display: flex; flex-direction: column; min-width: 0; gap: .8rem; }
+.sjdev-offline-books .sjdev-offline-books__cover { display: flex; flex-direction: column; gap: .55rem; justify-content: space-between; aspect-ratio: 2 / 3; width: min(100%, 106px); background: var(--background-secondary); border: 1px solid var(--background-modifier-border); border-radius: 4px 8px 8px 4px; overflow: hidden; padding: .7rem; color: var(--text-normal); box-shadow: 1px 3px 7px color-mix(in srgb, var(--background-modifier-border) 35%, transparent); }
+.sjdev-offline-books .sjdev-offline-books__cover:has(img) { padding: 0; }
+.sjdev-offline-books .sjdev-offline-books__cover-image { width: 100%; height: 100%; object-fit: cover; display: block; margin: 0; }
+.sjdev-offline-books .sjdev-offline-books__cover-kicker, .sjdev-offline-books .sjdev-offline-books__cover-label { font-size: .55em; letter-spacing: .06em; color: var(--text-muted); }
+.sjdev-offline-books .sjdev-offline-books__cover-title { font-size: .9em; font-weight: 650; overflow-wrap: anywhere; }
+.sjdev-offline-books .sjdev-offline-books__body { min-width: 0; }
+.sjdev-offline-books .sjdev-offline-books__sample-label { font-size: .65em; color: var(--text-muted); margin: 0 0 .25rem; }
+.sjdev-offline-books .sjdev-offline-books__book-title { font-size: .95em; line-height: 1.5; margin: 0 0 .3rem; overflow-wrap: anywhere; }
+.sjdev-offline-books .sjdev-offline-books__author { font-size: .8em; margin: 0 0 .7rem; color: var(--text-muted); overflow-wrap: anywhere; }
+.sjdev-offline-books .sjdev-offline-books__progress-label { font-size: .75em; margin: 0 0 .2rem; font-variant-numeric: tabular-nums; }
+.sjdev-offline-books .sjdev-offline-books__progress { width: 100%; height: 5px; display: block; border: 0; border-radius: 10px; overflow: hidden; accent-color: var(--interactive-accent); }
+.sjdev-offline-books .sjdev-offline-books__progress::-webkit-progress-bar { background: var(--background-secondary-alt); }
+.sjdev-offline-books .sjdev-offline-books__progress::-webkit-progress-value { background: var(--interactive-accent); border-radius: 10px; }
+.sjdev-offline-books .sjdev-offline-books__activity { color: var(--text-muted); font-size: .7em; margin: .7rem 0 .4rem; overflow-wrap: anywhere; }
+.sjdev-offline-books .sjdev-offline-books__link { font-size: .8em; overflow-wrap: anywhere; }
+.sjdev-offline-books .sjdev-offline-books__link a { text-decoration: none; }
+.sjdev-offline-books .sjdev-offline-books__footer { margin-top: 1rem; padding-top: .8rem; border-top: 1px solid var(--background-modifier-border); display: flex; flex-wrap: wrap; gap: .5rem 1rem; justify-content: space-between; font-size: .75em; }
+.sjdev-offline-books .sjdev-offline-books__muted { color: var(--text-muted); }
+.sjdev-offline-books .sjdev-offline-books__action { appearance: none; padding: 0; min-height: 0; height: auto; border: 0; background: transparent; box-shadow: none; font: inherit; color: var(--link-color); cursor: pointer; }
+.sjdev-offline-books .sjdev-offline-books__action:hover { text-decoration: underline; }
+.sjdev-offline-books .sjdev-offline-books__action:focus-visible { outline: 2px solid var(--interactive-accent); outline-offset: 3px; border-radius: 2px; }
+.sjdev-offline-books a:hover { text-decoration: underline; }
+.sjdev-offline-books a:focus-visible { outline: 2px solid var(--interactive-accent); outline-offset: 3px; border-radius: 2px; }
+@container sjdev-books (max-width: 430px) {
+  .sjdev-offline-books .sjdev-offline-books__grid { grid-template-columns: minmax(0, 1fr); gap: 1.1rem; }
+  .sjdev-offline-books .sjdev-offline-books__book { display: grid; grid-template-columns: 76px minmax(0,1fr); gap: .9rem; }
+  .sjdev-offline-books .sjdev-offline-books__cover { width: 76px; align-self: start; }
+  .sjdev-offline-books .sjdev-offline-books__cover-title { font-size: .75em; }
+}
+@container sjdev-books (max-width: 210px) {
+  .sjdev-offline-books .sjdev-offline-books__book { display: flex; }
+}

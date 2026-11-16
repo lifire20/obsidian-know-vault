@@ -1,0 +1,473 @@
+.sjdev-workbench-page { --file-line-width: 1120px; }
+.sjdev-workbench-page.markdown-preview-view .metadata-container,
+.sjdev-workbench-page.markdown-source-view .metadata-container,
+.sjdev-workbench-page .inline-title { display: none; }
+.sjdev-home {
+  --sjdev-home-gap: 1.25rem;
+  --sjdev-home-wash: color-mix(in srgb, var(--interactive-accent) 9%, var(--background-primary));
+  color: var(--text-normal);
+  font-family: var(--font-text);
+  font-size: var(--font-text-size);
+  line-height: 1.6;
+  width: 100%;
+  min-width: 0;
+  container: sjdev-home / inline-size;
+}
+.sjdev-home *, .sjdev-home *::before, .sjdev-home *::after { box-sizing: border-box; }
+.sjdev-home .sjdev-home__hero { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; padding: .25rem 0 1.4rem; align-items: center; }
+.sjdev-home .sjdev-home__eyebrow { margin: 0 0 .5rem; font-size: .75em; font-weight: 650; letter-spacing: .09em; color: var(--text-muted); }
+.sjdev-home .sjdev-home__title { font-size: 2em; font-weight: 700; letter-spacing: .02em; color: var(--text-normal); margin: 0; line-height: 1.25; }
+.sjdev-home .sjdev-home__subtitle { margin: .55rem 0 0; color: var(--text-muted); font-size: .9em; }
+.sjdev-home .sjdev-home__date { display: flex; flex-direction: column; gap: .25rem; font-size: .875em; }
+.sjdev-home .sjdev-home__date-value { font-size: 1.35em; font-variant-numeric: tabular-nums; font-weight: 600; letter-spacing: .045em; }
+.sjdev-home .sjdev-home__nav { display: flex; flex-wrap: wrap; gap: .5rem; padding-bottom: 1.5rem; margin-bottom: 1.5rem; border-bottom: 1px solid var(--background-modifier-border); }
+.sjdev-home .sjdev-home__nav a { display: inline-block; padding: .4rem .75rem; border: 1px solid var(--background-modifier-border); background: var(--background-primary); border-radius: 6px; text-decoration: none; color: var(--text-normal); font-size: .875em; max-width: 100%; overflow-wrap: anywhere; }
+.sjdev-home .sjdev-home__nav > span:first-child a { background: var(--sjdev-home-wash); border-color: var(--interactive-accent); }
+.sjdev-home .sjdev-home__today-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--sjdev-home-gap); margin-bottom: 1.5rem; align-items: stretch; }
+.sjdev-home .sjdev-home__focus { border: 1px solid var(--background-modifier-border); border-radius: 12px; padding: 1.25rem; background: var(--background-primary); min-width: 0; }
+.sjdev-home .sjdev-home__section-title { margin: 0 0 1rem; color: var(--text-normal); font-size: 1.15em; }
+.sjdev-home .sjdev-home__metrics { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .75rem; padding: .85rem 0 1.15rem; border-bottom: 1px solid var(--background-modifier-border); }
+.sjdev-home .sjdev-home__metric { min-width: 0; display: flex; flex-direction: column; gap: .3rem; }
+.sjdev-home .sjdev-home__metric-value { color: var(--text-normal); font-size: 1.65em; line-height: 1.1; font-variant-numeric: tabular-nums; font-weight: 600; }
+.sjdev-home .sjdev-home__metric-label { font-size: .8em; color: var(--text-muted); }
+.sjdev-home .sjdev-home__empty { font-size: .95em; line-height: 1.8; margin: 1rem 0 .8rem; }
+.sjdev-home .sjdev-home__scope { font-size: .8em; color: var(--text-muted); line-height: 1.65; margin: .75rem 0 1rem; }
+.sjdev-home .sjdev-home__review { display: flex; flex-wrap: wrap; gap: 1rem; font-size: .875em; }
+.sjdev-home .sjdev-home__task-list { list-style: none; padding: 0; margin: 1rem 0; }
+.sjdev-home .sjdev-home__task { padding: .65rem 0; border-bottom: 1px solid var(--background-modifier-border); font-size: .875em; overflow-wrap: anywhere; }
+.sjdev-home .sjdev-home__task-text { margin: 0 0 .35rem; }
+.sjdev-home .sjdev-home__calendar-host, .sjdev-home .sjdev-home__research-host, .sjdev-home .sjdev-home__activity-host { min-width: 0; }
+.sjdev-home .sjdev-home__research-host { margin-bottom: 1.5rem; }
+.sjdev-home .sjdev-home__footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 1rem; padding: 1rem 0; margin-top: .5rem; font-size: .75em; }
+.sjdev-home .sjdev-home__muted { color: var(--text-muted); }
+.sjdev-home .sjdev-home__error { color: var(--text-error); font-size: .9em; }
+.sjdev-home a:focus-visible, .sjdev-home button:focus-visible, .sjdev-home select:focus-visible { outline: 2px solid var(--interactive-accent); outline-offset: 3px; }
+.sjdev-home .sjdev-home__nav a:hover { background: var(--sjdev-home-wash); }
+@container sjdev-home (max-width: 680px) {
+  .sjdev-home .sjdev-home__today-grid { grid-template-columns: minmax(0,1fr); }
+  .sjdev-home .sjdev-home__title { font-size: 1.65em; }
+  .sjdev-home .sjdev-home__hero { align-items: start; }
+}
+@container sjdev-home (max-width: 360px) {
+  .sjdev-home .sjdev-home__focus { padding: .9rem; }
+  .sjdev-home .sjdev-home__metrics { gap: .4rem; }
+}
+
+/* 第二轮：生活与离线阅读，保持原型局部作用域。 */
+.sjdev-home .sjdev-home__water-host { margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--background-modifier-border); min-width: 0; }
+.sjdev-home .sjdev-home__water-host > .sjdev-water { border: 0; padding: 0; border-radius: 0; background: transparent; }
+.sjdev-home .sjdev-home__leisure-grid { display: grid; grid-template-columns: minmax(0,1.35fr) minmax(0,1fr); gap: var(--sjdev-home-gap); margin-bottom: 1.5rem; align-items: start; }
+.sjdev-home .sjdev-home__books-host, .sjdev-home .sjdev-home__music-host { min-width: 0; }
+@container sjdev-home (max-width: 760px) { .sjdev-home .sjdev-home__leisure-grid { grid-template-columns: minmax(0,1fr); } }
+
+/* 第二轮补充 · 阿尼亚灵感局部皮肤。仅改变呈现，不替换数据语义色。 */
+.sjdev-home.sjdev-home--anya {
+  --sjdev-anya-pink: #efb0c3;
+  --sjdev-anya-green: #a7cbb3;
+  --sjdev-anya-gold: #e6c875;
+  --sjdev-anya-cream: #fff3d4;
+  --sjdev-anya-ink: #303344;
+  --sjdev-anya-pink-text: #793d55;
+  --sjdev-anya-green-text: #2b5843;
+  --sjdev-anya-gold-text: #694c18;
+  --sjdev-anya-pink-wash: color-mix(in srgb, var(--sjdev-anya-pink) 12%, var(--background-primary));
+  --sjdev-anya-green-wash: color-mix(in srgb, var(--sjdev-anya-green) 12%, var(--background-primary));
+  --sjdev-anya-gold-wash: color-mix(in srgb, var(--sjdev-anya-gold) 10%, var(--background-primary));
+  --sjdev-anya-border: color-mix(in srgb, var(--sjdev-anya-pink) 36%, var(--background-modifier-border));
+}
+.theme-dark .sjdev-home.sjdev-home--anya,
+.sjdev-home.sjdev-home--anya.theme-dark {
+  --sjdev-anya-pink-text: #edb7c9;
+  --sjdev-anya-green-text: #b1d5bb;
+  --sjdev-anya-gold-text: #e3ca86;
+}
+.sjdev-home.sjdev-home--anya .sjdev-home__hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  grid-template-areas: "identity companion date";
+  gap: 1rem 1.25rem;
+  align-items: center;
+  padding: 1.1rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--sjdev-anya-border);
+  border-radius: 16px;
+  background: linear-gradient(110deg, var(--sjdev-anya-pink-wash), var(--background-primary) 55%, var(--sjdev-anya-green-wash));
+}
+.sjdev-home.sjdev-home--anya .sjdev-home__identity { grid-area: identity; min-width: 0; }
+.sjdev-home.sjdev-home--anya .sjdev-home__date { grid-area: date; min-width: 0; font-size: .78em; }
+.sjdev-home.sjdev-home--anya .sjdev-home__eyebrow { font-size: .68em; letter-spacing: .075em; }
+.sjdev-home.sjdev-home--anya .sjdev-home__title { display: flex; align-items: center; gap: .5rem; font-size: 1.85em; }
+.sjdev-home.sjdev-home--anya .sjdev-home__subtitle { margin-top: .45rem; font-size: .82em; }
+.sjdev-home.sjdev-home--anya .sjdev-anya-title-star {
+  display: inline-block;
+  color: var(--sjdev-anya-gold-text);
+  font-size: .5em;
+  line-height: 1;
+  transform: rotate(9deg);
+  pointer-events: none;
+}
+.sjdev-home.sjdev-home--anya .sjdev-anya-companion {
+  grid-area: companion;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  min-width: 0;
+  pointer-events: none;
+}
+.sjdev-home.sjdev-home--anya .sjdev-anya-companion__avatar {
+  display: block;
+  flex: 0 0 88px;
+  width: 88px;
+  height: 88px;
+  margin: 0;
+  object-fit: contain;
+}
+.sjdev-home.sjdev-home--anya .sjdev-anya-companion__bubble {
+  position: relative;
+  max-width: 11rem;
+  padding: .65rem .8rem;
+  border: 1px solid var(--sjdev-anya-border);
+  border-radius: 13px 13px 13px 4px;
+  background: var(--background-primary);
+}
+.sjdev-home.sjdev-home--anya .sjdev-anya-companion__label {
+  display: inline-flex;
+  padding: .07rem .4rem;
+  border-radius: 999px;
+  color: var(--sjdev-anya-cream);
+  background: var(--sjdev-anya-ink);
+  border: 1px solid var(--sjdev-anya-gold);
+  font-size: .62em;
+  font-weight: 600;
+  letter-spacing: .04em;
+}
+.sjdev-home.sjdev-home--anya .sjdev-anya-companion__message {
+  margin: .3rem 0 0;
+  color: var(--text-normal);
+  font-size: .78em;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.sjdev-home.sjdev-home--anya .sjdev-home__nav { border-bottom-color: var(--sjdev-anya-border); }
+.sjdev-home.sjdev-home--anya .sjdev-home__nav a { border-radius: 999px; }
+.sjdev-home.sjdev-home--anya .sjdev-home__nav > span:first-child a {
+  color: var(--text-normal);
+  background: var(--sjdev-anya-pink-wash);
+  border-color: var(--sjdev-anya-border);
+}
+.sjdev-home.sjdev-home--anya .sjdev-home__nav a:hover { background: var(--sjdev-anya-green-wash); }
+.sjdev-home.sjdev-home--anya .sjdev-home__focus { border-top-color: color-mix(in srgb, var(--sjdev-anya-gold) 50%, var(--background-modifier-border)); }
+.sjdev-home.sjdev-home--anya .sjdev-home__empty {
+  padding: .8rem .9rem;
+  border-left: 3px solid var(--sjdev-anya-gold);
+  border-radius: 3px 10px 10px 3px;
+  background: var(--sjdev-anya-gold-wash);
+  color: var(--text-normal);
+  font-size: .88em;
+}
+
+/* 饮水保持真实状态；只给标题与已有记录添加薄荷绿点缀。 */
+.sjdev-home.sjdev-home--anya .sjdev-water .sjdev-water__title {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  color: var(--text-normal);
+}
+.sjdev-home.sjdev-home--anya .sjdev-water .sjdev-water__title::before {
+  content: "";
+  display: inline-block;
+  flex: 0 0 16px;
+  width: 16px;
+  height: 21px;
+  border: 1.5px solid var(--sjdev-anya-green-text);
+  border-radius: 3px 3px 6px 6px;
+  background: linear-gradient(to top, var(--sjdev-anya-green) 46%, transparent 46%);
+  transform: rotate(-5deg);
+  pointer-events: none;
+}
+.sjdev-home.sjdev-home--anya .sjdev-water .sjdev-water__amount { color: var(--text-normal); }
+.sjdev-home.sjdev-home--anya .sjdev-water .sjdev-water__day[data-status="recorded"] {
+  background: var(--sjdev-anya-green-wash);
+  box-shadow: inset 0 -2px 0 color-mix(in srgb, var(--sjdev-anya-green) 70%, transparent);
+}
+.sjdev-home.sjdev-home--anya .sjdev-water .sjdev-water__progress { accent-color: var(--sjdev-anya-green-text); }
+.sjdev-home.sjdev-home--anya .sjdev-anya-habits {
+  margin-top: 1rem;
+  padding: .85rem .9rem;
+  border: 1px solid color-mix(in srgb, var(--sjdev-anya-green) 35%, var(--background-modifier-border));
+  border-radius: 11px;
+  background: var(--sjdev-anya-green-wash);
+}
+.sjdev-home.sjdev-home--anya .sjdev-anya-habits__header { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .5rem; }
+.sjdev-home.sjdev-home--anya .sjdev-anya-habits__icon { color: var(--sjdev-anya-gold-text); font-size: 1.2em; line-height: 1; pointer-events: none; }
+.sjdev-home.sjdev-home--anya .sjdev-anya-habits__title { margin: 0; color: var(--text-normal); font-size: .9em; font-weight: 600; }
+.sjdev-home.sjdev-home--anya .sjdev-anya-habits__badge {
+  margin-left: auto;
+  padding: .05rem .4rem;
+  border: 1px solid color-mix(in srgb, var(--sjdev-anya-green) 50%, var(--background-modifier-border));
+  border-radius: 999px;
+  color: var(--sjdev-anya-green-text);
+  background: var(--background-primary);
+  font-size: .66em;
+}
+.sjdev-home.sjdev-home--anya .sjdev-anya-habits__message { margin: .5rem 0 .2rem; font-size: .82em; color: var(--text-normal); }
+.sjdev-home.sjdev-home--anya .sjdev-anya-habits__hint { margin: 0; color: var(--text-muted); font-size: .74em; line-height: 1.65; }
+
+/* 学术区保留正文、数据和任务的语义色，装饰集中在文献标题。 */
+.sjdev-home.sjdev-home--anya .sjdev-research-workspace__literature { border-top-color: var(--sjdev-anya-border); }
+.sjdev-home.sjdev-home--anya .sjdev-research-workspace__literature .sjdev-research-workspace__eyebrow { color: var(--sjdev-anya-pink-text); }
+.sjdev-home.sjdev-home--anya .sjdev-research-workspace__literature .sjdev-research-workspace__title::before {
+  content: "✦";
+  display: inline-block;
+  margin-right: .4rem;
+  color: var(--sjdev-anya-gold-text);
+  font-size: .85em;
+  pointer-events: none;
+}
+.sjdev-home.sjdev-home--anya .sjdev-research-workspace__literature .sjdev-research-workspace__title::after {
+  content: "今天也要努力读文献";
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin-top: .4rem;
+  padding: .15rem .5rem;
+  border-radius: 999px;
+  color: var(--sjdev-anya-pink-text);
+  background: var(--sjdev-anya-pink-wash);
+  font-size: .6em;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: .02em;
+  pointer-events: none;
+}
+.sjdev-home.sjdev-home--anya .sjdev-research-workspace__projects { border-top-color: color-mix(in srgb, var(--sjdev-anya-green) 35%, var(--background-modifier-border)); }
+
+/* 阅读书架保留独立的虚构数据标识，装饰不覆盖封面文字。 */
+.sjdev-home.sjdev-home--anya .sjdev-offline-books { border-color: var(--sjdev-anya-border); }
+.sjdev-home.sjdev-home--anya .sjdev-offline-books__title::after {
+  content: "✧";
+  display: inline-block;
+  margin-left: .5rem;
+  color: var(--sjdev-anya-pink-text);
+  font-size: 1em;
+  pointer-events: none;
+}
+.sjdev-home.sjdev-home--anya .sjdev-offline-books__cover {
+  border-left: 3px solid var(--sjdev-anya-pink);
+  border-top-color: color-mix(in srgb, var(--sjdev-anya-pink) 40%, var(--background-modifier-border));
+  box-shadow: 1px 2px 0 color-mix(in srgb, var(--sjdev-anya-pink) 18%, transparent);
+}
+.sjdev-home.sjdev-home--anya .sjdev-offline-books__book:nth-child(even) .sjdev-offline-books__cover { border-left-color: var(--sjdev-anya-green); }
+.sjdev-home.sjdev-home--anya .sjdev-offline-books__badge {
+  color: var(--sjdev-anya-gold-text);
+  border-color: color-mix(in srgb, var(--sjdev-anya-gold) 50%, var(--background-modifier-border));
+  background: var(--sjdev-anya-gold-wash);
+}
+
+/* 金星只进入图例与陪伴文案；热力格的分档、缺失、零值配色保持原样。 */
+.sjdev-home.sjdev-home--anya .sjdev-activity-heatmap__legend {
+  padding-top: .75rem;
+  border-top: 1px solid color-mix(in srgb, var(--sjdev-anya-gold) 35%, var(--background-modifier-border));
+}
+.sjdev-home.sjdev-home--anya .sjdev-activity-heatmap__legend::before {
+  content: "✦";
+  color: var(--sjdev-anya-gold-text);
+  font-size: 1.1em;
+  line-height: 1.2;
+  pointer-events: none;
+}
+.sjdev-home.sjdev-home--anya .sjdev-anya-footnote {
+  margin: .7rem 0 0;
+  padding-inline: .25rem;
+  color: var(--sjdev-anya-gold-text);
+  font-size: .76em;
+  line-height: 1.7;
+}
+
+@container sjdev-home (max-width: 900px) {
+  .sjdev-home.sjdev-home--anya .sjdev-home__hero {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "identity date" "companion companion";
+    gap: .75rem 1rem;
+  }
+  .sjdev-home.sjdev-home--anya .sjdev-anya-companion { justify-content: flex-start; }
+  .sjdev-home.sjdev-home--anya .sjdev-anya-companion__avatar { flex-basis: 72px; width: 72px; height: 72px; }
+  .sjdev-home.sjdev-home--anya .sjdev-anya-companion__bubble { max-width: 17rem; }
+}
+@container sjdev-home (max-width: 760px) {
+  .sjdev-home.sjdev-home--anya .sjdev-home__hero { padding: 1rem; }
+  .sjdev-home.sjdev-home--anya .sjdev-home__date-value { font-size: 1.1em; }
+  .sjdev-home.sjdev-home--anya .sjdev-home__title { font-size: 1.6em; }
+}
+@container sjdev-home (max-width: 440px) {
+  .sjdev-home.sjdev-home--anya .sjdev-home__hero {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "identity" "date" "companion";
+    gap: .7rem;
+  }
+  .sjdev-home.sjdev-home--anya .sjdev-home__date { flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: .3rem .65rem; }
+  .sjdev-home.sjdev-home--anya .sjdev-anya-companion__avatar { flex-basis: 64px; width: 64px; height: 64px; }
+  .sjdev-home.sjdev-home--anya .sjdev-anya-companion__bubble { max-width: 100%; padding: .5rem .65rem; }
+  .sjdev-home.sjdev-home--anya .sjdev-home__nav a { padding-inline: .65rem; }
+  .sjdev-home.sjdev-home--anya .sjdev-home__empty { padding: .7rem; }
+  .sjdev-home.sjdev-home--anya .sjdev-anya-habits { padding: .75rem; }
+}
+
+/* 素材 banner：完整插画右置，标题保留在独立留白区。 */
+.sjdev-home.sjdev-home--anya .sjdev-home__hero--banner {
+  --sjdev-banner-paper: #fff4e8;
+  --text-normal: #343b58;
+  --text-muted: #6b606a;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 224px;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "identity" "companion" "date";
+  align-content: center;
+  justify-items: start;
+  gap: .55rem;
+  padding: 1.25rem calc(43% + 1.25rem) 1.25rem 1.5rem;
+  background: var(--sjdev-banner-paper);
+  border-color: color-mix(in srgb, var(--sjdev-anya-pink) 65%, var(--background-modifier-border));
+}
+.sjdev-home.sjdev-home--anya .sjdev-anya-banner__art {
+  position: absolute;
+  z-index: -1;
+  inset: 0 0 0 auto;
+  width: 43%;
+  height: 100%;
+  background: var(--sjdev-banner-paper);
+  pointer-events: none;
+}
+.sjdev-home.sjdev-home--anya .sjdev-anya-banner__art::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0 auto 0 0;
+  width: 24px;
+  background: linear-gradient(to right, var(--sjdev-banner-paper), transparent);
+}
+.sjdev-home.sjdev-home--anya .sjdev-anya-banner__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: contain;
+  object-position: center;
+  border: 0;
+  border-radius: 0;
+}
+.sjdev-home.sjdev-home--anya .sjdev-home__hero--banner .sjdev-home__title { color: #343b58; }
+.sjdev-home.sjdev-home--anya .sjdev-home__hero--banner .sjdev-home__date-value { color: #343b58; }
+.sjdev-home.sjdev-home--anya .sjdev-home__hero--banner .sjdev-anya-title-star { color: #795817; }
+.sjdev-home.sjdev-home--anya .sjdev-home__hero--banner .sjdev-anya-companion__bubble {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .35rem .55rem;
+  max-width: none;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.sjdev-home.sjdev-home--anya .sjdev-home__hero--banner .sjdev-anya-companion__message { margin: 0; }
+.sjdev-home.sjdev-home--anya .sjdev-home__hero--banner .sjdev-home__date {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .3rem .75rem;
+  margin-top: .1rem;
+}
+@container sjdev-home (max-width: 680px) {
+  .sjdev-home.sjdev-home--anya .sjdev-home__hero--banner {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "art" "identity" "companion" "date";
+    min-height: 0;
+    padding: 0 1rem 1rem;
+    gap: .7rem;
+  }
+  .sjdev-home.sjdev-home--anya .sjdev-anya-banner__art {
+    position: relative;
+    z-index: 0;
+    grid-area: art;
+    inset: auto;
+    width: calc(100% + 2rem);
+    height: 180px;
+    margin-inline: -1rem;
+  }
+  .sjdev-home.sjdev-home--anya .sjdev-anya-banner__art::before { content: none; }
+}
+
+/* 主页行动区：专注与速记靠近导航，不挤占研究模块。 */
+.sjdev-home .sjdev-home__action-grid {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  gap: var(--sjdev-home-gap);
+  align-items: stretch;
+  margin-bottom: 1.5rem;
+}
+.sjdev-home .sjdev-home__pomodoro-host,
+.sjdev-home .sjdev-home__quick-tasks-host { min-width: 0; }
+.sjdev-home .sjdev-home__week-calendar-host { min-width: 0; margin-top: 1.5rem; }
+.sjdev-home .sjdev-home__action-grid > div > section { height: 100%; }
+@container sjdev-home (max-width: 680px) {
+  .sjdev-home .sjdev-home__action-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* Every module companion uses the same square frame and retains image proportions. */
+.sjdev-home.sjdev-home--anya .sjdev-home__module-heading {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  align-items: center;
+  column-gap: .5rem;
+  min-width: 0;
+}
+.sjdev-home.sjdev-home--anya .sjdev-home__module-avatar {
+  display: block;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  max-width: 32px;
+  max-height: 32px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  aspect-ratio: 1;
+  object-fit: contain;
+  align-self: center;
+  pointer-events: none;
+}
+.sjdev-home.sjdev-home--anya .sjdev-home__module-heading::before { display: none; }
+.sjdev-home.sjdev-home--anya .sjdev-water .sjdev-water__title.sjdev-home__module-heading { display: grid; }
+.sjdev-home.sjdev-home--anya .sjdev-water .sjdev-water__title.sjdev-home__module-heading::before,
+.sjdev-home.sjdev-home--anya .sjdev-research-workspace__literature .sjdev-research-workspace__title.sjdev-home__module-heading::before { display: none; }
+.sjdev-home.sjdev-home--anya .sjdev-offline-books__title.sjdev-home__module-heading::after { display: none; }
+.sjdev-home.sjdev-home--anya .sjdev-research-workspace__literature .sjdev-research-workspace__title.sjdev-home__module-heading::after {
+  grid-column: 2;
+  justify-self: start;
+}
+.sjdev-home.sjdev-home--anya .sjdev-anya-habits__header > .sjdev-anya-habits__icon { display: none; }
+
+/* 正式版以局部暖白调色板统一卡片，保留研究和热力格语义色。 */
+.sjdev-home.sjdev-home--published {
+  --background-primary: #fffdfb;
+  --background-secondary: #f6f3f7;
+  --background-modifier-border: #e7e3ec;
+  --text-normal: #343b58;
+  --text-muted: #70768c;
+  --text-faint: #8a8b9c;
+  color-scheme: light;
+}
+
+/* 可记录生活区：先习惯和饮水，再按日填写三餐、入睡与专注。 */
+.sjdev-home .sjdev-home__life-grid { display: grid; grid-template-columns: minmax(0,1.1fr) minmax(0,1fr); align-items: start; gap: var(--sjdev-home-gap); margin-bottom: 1.5rem; }
+.sjdev-home .sjdev-home__life-grid > div { min-width: 0; }
+.sjdev-home .sjdev-home__life-grid .sjdev-home__water-host { margin: 0; padding: 0; border: 0; }
+.sjdev-home .sjdev-home__life-grid .sjdev-home__water-host > .sjdev-water { padding: 1.25rem; border: 1px solid var(--sjdev-anya-border); border-radius: 12px; background: var(--background-primary); }
+.sjdev-home .sjdev-home__life-grid .sjdev-anya-habits { margin: 0; padding: 1.25rem; background: var(--background-primary); border-radius: 12px; }
+.sjdev-home .sjdev-home__habits-host { grid-column: 1 / -1; }
+.sjdev-home .sjdev-home__daily-life-host { grid-column: 1 / -1; }
+@container sjdev-home (max-width: 760px) { .sjdev-home .sjdev-home__life-grid { grid-template-columns: minmax(0,1fr); } }

@@ -1,0 +1,33 @@
+{
+  "dailyReadData": {
+    "1778392585979": {
+      "filePath": "",
+      "openCount": 0,
+      "fileId": "1778392585979",
+      "duration": 90000
+    },
+    "1778397451970": {
+      "filePath": "",
+      "openCount": 0,
+      "fileId": "1778397451970",
+      "duration": 6000
+    },
+    "undefined": {
+      "filePath": "",
+      "openCount": 0,
+      "duration": 6000
+    },
+    "1780759917213": {
+      "filePath": "",
+      "openCount": 0,
+      "fileId": "1780759917213",
+      "duration": 78000
+    },
+    "1780628422686": {
+      "filePath": "",
+      "openCount": 0,
+      "fileId": "1780628422686",
+      "duration": 48000
+    }
+  }
+}

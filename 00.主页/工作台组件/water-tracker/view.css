@@ -1,0 +1,53 @@
+.sjdev-water { color: var(--text-normal); background: var(--background-primary); border: 1px solid var(--background-modifier-border); border-radius: 12px; padding: 1.25rem; min-width: 0; container: sjdev-water / inline-size; }
+.sjdev-water *, .sjdev-water *::before, .sjdev-water *::after { box-sizing: border-box; }
+.sjdev-water .sjdev-water__eyebrow { color: var(--text-muted); font-size: .72em; letter-spacing: .08em; margin: 0 0 .35rem; }
+.sjdev-water .sjdev-water__title { margin: 0 0 .8rem; font-size: 1.12em; }
+.sjdev-water .sjdev-water__amount { font-size: 1.65em; font-variant-numeric: tabular-nums; font-weight: 650; }
+.sjdev-water .sjdev-water__muted, .sjdev-water .sjdev-water__scope { color: var(--text-muted); font-size: .8em; line-height: 1.6; margin: .5rem 0; }
+.sjdev-water .sjdev-water__scope { font-size: .73em; }
+.sjdev-water .sjdev-water__progress { width: 100%; height: .5rem; accent-color: var(--interactive-accent); }
+.sjdev-water .sjdev-water__week { display: grid; grid-template-columns: repeat(7,minmax(0,1fr)); gap: .35rem; margin-top: .9rem; }
+.sjdev-water .sjdev-water__day { min-width: 0; display: flex; flex-direction: column; text-align: center; gap: .3rem; padding: .45rem .15rem; border-radius: 5px; background: var(--background-secondary); }
+.sjdev-water .sjdev-water__day-date { font-size: .72em; color: var(--text-muted); }
+.sjdev-water .sjdev-water__day-value { font-size: .72em; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+.sjdev-water .sjdev-water__day[data-status="recorded"] { background: color-mix(in srgb, var(--interactive-accent) 12%, var(--background-primary)); }
+.sjdev-water .sjdev-water__fixture { border-top: 1px solid var(--background-modifier-border); margin-top: 1rem; padding-top: 1rem; }
+.sjdev-water .sjdev-water__fixture-title { font-size: 1em; color: var(--text-accent); margin: 0; }
+.sjdev-water .sjdev-water__fixture-summary { font-size: .9em; }
+.sjdev-water .sjdev-water__fixture-status { color: var(--text-muted); font-size: .78em; overflow-wrap: anywhere; min-height: 2.8em; }
+.sjdev-water .sjdev-water__controls { display: flex; flex-wrap: wrap; gap: .65rem; align-items: end; }
+.sjdev-water .sjdev-water__label { display: flex; flex-direction: column; gap: .35rem; font-size: .78em; min-width: 0; max-width: 100%; }
+.sjdev-water .sjdev-water__input, .sjdev-water .sjdev-water__select { width: 100%; max-width: 23rem; min-width: 0; }
+.sjdev-water .sjdev-water__button { height: auto; white-space: normal; line-height: 1.5; padding: .4rem .65rem; font-size: .8em; }
+.sjdev-water .sjdev-water__message { color: var(--text-error); }
+.sjdev-water button:focus-visible, .sjdev-water input:focus-visible, .sjdev-water select:focus-visible { outline: 2px solid var(--interactive-accent); outline-offset: 3px; }
+@container sjdev-water (max-width: 360px) { .sjdev-water .sjdev-water__week { gap: .15rem; } .sjdev-water .sjdev-water__day-date { font-size: .65em; } }
+
+/* Interactive home mode keeps its controls and state within this component. */
+.sjdev-water.sjdev-water--interactive { border-color: color-mix(in srgb, var(--sjdev-anya-green, #a7cbb3) 50%, var(--background-modifier-border)); }
+.sjdev-water.sjdev-water--interactive .sjdev-water__date-row { display: flex; align-items: end; flex-wrap: wrap; gap: .5rem; margin: 0 0 .9rem; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__date { max-width: 100%; min-width: 0; width: 10.6rem; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__amount { display: block; color: var(--sjdev-anya-green-text, var(--text-normal)); }
+.sjdev-water.sjdev-water--interactive .sjdev-water__record-actions { display: flex; flex-wrap: wrap; gap: .6rem .8rem; align-items: end; margin-top: .9rem; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__custom { display: flex; flex: 1 1 11rem; min-width: 0; gap: .5rem; align-items: end; margin: 0; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__custom .sjdev-water__label { flex: 1 1 6rem; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__input { width: 100%; max-width: 100%; min-height: 2.1rem; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__button { border: 1px solid var(--background-modifier-border); border-radius: 7px; background: var(--background-primary); color: var(--text-normal); min-height: 2.1rem; max-width: 100%; box-shadow: none; white-space: normal; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__button--primary { background: var(--sjdev-anya-green-wash, #f1f6f2); color: var(--sjdev-anya-green-text, #2b5843); border-color: var(--sjdev-anya-green, #a7cbb3); }
+.sjdev-water.sjdev-water--interactive .sjdev-water__button--quiet { color: var(--text-muted); }
+.sjdev-water.sjdev-water--interactive .sjdev-water__button:disabled { opacity: .55; cursor: default; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__settings { margin-top: .8rem; padding-top: .7rem; border-top: 1px solid var(--background-modifier-border); }
+.sjdev-water.sjdev-water--interactive .sjdev-water__summary { color: var(--text-muted); font-size: .8em; cursor: pointer; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__summary:hover { color: var(--text-normal); }
+.sjdev-water.sjdev-water--interactive .sjdev-water__settings-form { display: flex; flex-wrap: wrap; align-items: end; gap: .6rem; margin: .7rem 0 0; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__settings-form .sjdev-water__label { flex: 1 1 7rem; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__week-title { font-size: .78em; font-weight: 600; margin: 1rem 0 -.4rem; color: var(--text-muted); }
+.sjdev-water.sjdev-water--interactive .sjdev-water__day { height: auto; border: 1px solid transparent; box-shadow: none; width: 100%; color: var(--text-normal); cursor: pointer; line-height: 1.45; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__day:hover { border-color: var(--sjdev-anya-green, #a7cbb3); }
+.sjdev-water.sjdev-water--interactive .sjdev-water__status { color: var(--text-muted); min-height: 1.6em; font-size: .78em; margin: .6rem 0 0; line-height: 1.6; overflow-wrap: anywhere; }
+.sjdev-water.sjdev-water--interactive .sjdev-water__status[data-error="true"] { color: var(--text-error); }
+@container sjdev-water (max-width: 300px) {
+  .sjdev-water.sjdev-water--interactive .sjdev-water__custom { flex-basis: 100%; }
+  .sjdev-water.sjdev-water--interactive .sjdev-water__settings-form .sjdev-water__label { flex-basis: 100%; }
+}
+.sjdev-water [hidden] { display: none !important; }

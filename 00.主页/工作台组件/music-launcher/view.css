@@ -1,0 +1,33 @@
+.sjdev-music-launcher {
+  color: var(--text-normal);
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  min-width: 0;
+  width: 100%;
+  font-family: var(--font-text);
+  line-height: 1.6;
+}
+.sjdev-music-launcher, .sjdev-music-launcher * { box-sizing: border-box; }
+.sjdev-music-launcher .sjdev-music-launcher__eyebrow { font-size: .75em; letter-spacing: .08em; color: var(--text-muted); margin: 0 0 .5rem; }
+.sjdev-music-launcher .sjdev-music-launcher__title { font-size: 1.15em; margin: 0 0 .65rem; color: var(--text-normal); }
+.sjdev-music-launcher .sjdev-music-launcher__badge { font-size: .75em; width: fit-content; padding: .15rem .45rem; border: 1px solid var(--background-modifier-border); border-radius: 4px; color: var(--text-muted); background: var(--background-secondary); margin: 0 0 1rem; }
+.sjdev-music-launcher .sjdev-music-launcher__label { display: flex; flex-direction: column; gap: .35rem; font-size: .85em; color: var(--text-muted); }
+.sjdev-music-launcher .sjdev-music-launcher__select { width: 100%; max-width: 100%; height: auto; min-height: 2.25rem; color: var(--text-normal); background: var(--background-primary); border: 1px solid var(--background-modifier-border); padding: .35rem .6rem; border-radius: 6px; }
+.sjdev-music-launcher .sjdev-music-launcher__actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .75rem; align-items: center; }
+.sjdev-music-launcher .sjdev-music-launcher__official,
+.sjdev-music-launcher .sjdev-music-launcher__button { min-height: 2.1rem; padding: .35rem .6rem; border-radius: 6px; font-size: .8em; font-family: inherit; white-space: normal; height: auto; text-align: center; overflow-wrap: anywhere; max-width: 100%; }
+.sjdev-music-launcher .sjdev-music-launcher__official { color: var(--text-normal); border: 1px solid var(--background-modifier-border); text-decoration: none; }
+.sjdev-music-launcher .sjdev-music-launcher__button { color: var(--text-on-accent); background: var(--interactive-accent); border: 1px solid var(--interactive-accent); box-shadow: none; }
+.sjdev-music-launcher .sjdev-music-launcher__button--quiet { color: var(--text-normal); border-color: var(--background-modifier-border); background: var(--background-primary); }
+.sjdev-music-launcher .sjdev-music-launcher__button:disabled { opacity: .5; cursor: default; }
+.sjdev-music-launcher .sjdev-music-launcher__official:hover,
+.sjdev-music-launcher .sjdev-music-launcher__button--quiet:not(:disabled):hover { background: var(--background-modifier-hover); }
+.sjdev-music-launcher .sjdev-music-launcher__button:not(.sjdev-music-launcher__button--quiet):hover { background: var(--interactive-accent-hover); }
+.sjdev-music-launcher .sjdev-music-launcher__notice,
+.sjdev-music-launcher .sjdev-music-launcher__status { font-size: .78em; color: var(--text-muted); margin: .85rem 0 0; line-height: 1.7; overflow-wrap: anywhere; }
+.sjdev-music-launcher .sjdev-music-launcher__player { display: block; border: 0; height: 450px; width: 100%; max-width: 100%; margin-top: 1rem; background: var(--background-secondary); }
+.sjdev-music-launcher a:focus-visible,
+.sjdev-music-launcher button:focus-visible,
+.sjdev-music-launcher select:focus-visible { outline: 2px solid var(--interactive-accent); outline-offset: 3px; }

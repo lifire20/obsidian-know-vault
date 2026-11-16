@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-labelledby="sjdev-companion-title">
+  <title id="sjdev-companion-title">粉发绿眼的学习小伙伴，带着星星与花生</title>
+  <circle cx="60" cy="61" r="49" fill="#FFF4DC"/>
+  <circle cx="60" cy="61" r="48" stroke="#D7B66E" stroke-opacity=".35" stroke-width="1.6" stroke-dasharray="2 6"/>
+  <path d="M32 83C23 80 21 65 24 49C23 29 38 18 60 18C82 18 97 29 96 49C99 65 97 80 88 83L80 76H40L32 83Z" fill="#EFA4B8" stroke="#343346" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M30 30L22 18L17 39L30 45L38 33L30 30Z" fill="#343346" stroke="#343346" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M24 24L21 36L29 40" stroke="#D7B66E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M90 30L98 18L103 39L90 45L82 33L90 30Z" fill="#343346" stroke="#343346" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M96 24L99 36L91 40" stroke="#D7B66E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38 85C42 81 50 79 60 79C70 79 78 81 82 85L87 105C71 112 49 112 33 105L38 85Z" fill="#343346" stroke="#343346" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M47 82L60 91L73 82L68 98H52L47 82Z" fill="#FFF4DC" stroke="#D7B66E" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M60 91V105" stroke="#D7B66E" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M34 47C34 33 45 29 60 29C75 29 86 33 86 47V61C86 77 75 87 60 87C45 87 34 77 34 61V47Z" fill="#FFE8D5" stroke="#343346" stroke-width="2"/>
+  <path d="M29 51C29 30 43 23 60 23C77 23 91 30 91 51L82 45L79 51L69 37L65 48L55 37L49 47L40 40L37 52L29 57V51Z" fill="#F4B3C4" stroke="#343346" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 52L50 51M70 51L78 52" stroke="#8A586C" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M40 58C43 54 49 54 52 58M68 58C71 54 77 54 80 58" stroke="#343346" stroke-width="2.2" stroke-linecap="round"/>
+  <ellipse cx="46" cy="63" rx="5" ry="7.6" fill="#91B894" stroke="#343346" stroke-width="1.6"/>
+  <ellipse cx="74" cy="63" rx="5" ry="7.6" fill="#91B894" stroke="#343346" stroke-width="1.6"/>
+  <ellipse cx="46.5" cy="64" rx="2" ry="4.6" fill="#343346"/>
+  <ellipse cx="73.5" cy="64" rx="2" ry="4.6" fill="#343346"/>
+  <circle cx="44.6" cy="60.4" r="1.6" fill="#FFFDF3"/>
+  <circle cx="72.1" cy="60.4" r="1.6" fill="#FFFDF3"/>
+  <ellipse cx="38" cy="72" rx="5.2" ry="2.6" fill="#EDA0AF" fill-opacity=".58"/>
+  <ellipse cx="82" cy="72" rx="5.2" ry="2.6" fill="#EDA0AF" fill-opacity=".58"/>
+  <path d="M53 75C56 74 64 74 67 75C65.5 80 56 80 53 75Z" fill="#BC6D83" stroke="#343346" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M57 76H63" stroke="#FFF4DC" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M103 48L105.8 54L112 56.8L105.8 59.6L103 66L100.2 59.6L94 56.8L100.2 54L103 48Z" fill="#E7C77C" stroke="#B59550" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M16 81C12 82 10 86 12 90C13.5 93 16 93 17 95C18 97 18 100 21 101C25 103 29 100 29 96C29 93 26 91 25 89C24 87 24 83 21 82C19.5 81 18 80.5 16 81Z" fill="#E5C28B" stroke="#A4865E" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M16 85C18 88 17 90 21 93C24 95 23 97 24 98M13 89L18 87M19 98L24 95" stroke="#B5966D" stroke-width="1.2" stroke-linecap="round"/>
+</svg>
