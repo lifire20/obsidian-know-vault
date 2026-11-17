@@ -2,6 +2,8 @@
   "defaultViewMode": "preview",
   "readableLineLength": true,
   "showInlineTitle": false,
-  "newFileLocation": "current",
-  "attachmentFolderPath": "附件"
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "Other/assets",
+  "newFileFolderPath": "Other",
+  "alwaysUpdateLinks": true
 }

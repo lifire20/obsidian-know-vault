@@ -303,13 +303,13 @@
     "Computer/obsidian/git提交仓库.md": {
       "fileId": "1779078015459",
       "filePath": "Computer/obsidian/git提交仓库.md",
-      "duration": 1860000,
-      "openCount": 9
+      "duration": 1866000,
+      "openCount": 10
     },
     "Computer/obsidian/git同步命令.md": {
       "fileId": "1779079341456",
       "filePath": "Computer/obsidian/git同步命令.md",
-      "duration": 1038000,
+      "duration": 1044000,
       "openCount": 21
     },
     "Computer/obsidian/ob文件结构修改方案.md": {
@@ -861,14 +861,14 @@
     "10_System/Tasks/待办.md": {
       "fileId": "1782025412830",
       "filePath": "10_System/Tasks/待办.md",
-      "duration": 354000,
-      "openCount": 3
+      "duration": 450000,
+      "openCount": 7
     },
     "10_System/Tasks/今日待办.md": {
       "fileId": "1782025910845",
       "filePath": "10_System/Tasks/今日待办.md",
-      "duration": 720000,
-      "openCount": 9
+      "duration": 768000,
+      "openCount": 12
     },
     "99_Resources/copilot/copilot-conversations/你好，我是DeepSeek，由深度求索公司创造的AI模型，纯文本、@20260604_135721.md": {
       "fileId": "1780553326384",
@@ -1857,13 +1857,55 @@
     "00.主页/主页待办.md": {
       "fileId": "1794812337617",
       "filePath": "00.主页/主页待办.md",
-      "duration": 12000,
-      "openCount": 3
+      "duration": 78000,
+      "openCount": 7
     },
     "00.主页/主页.md": {
       "fileId": "1794812343627",
       "filePath": "00.主页/主页.md",
-      "duration": 78000,
+      "duration": 654000,
+      "openCount": 25
+    },
+    "03.项目管理/新项目/黑马点评.md": {
+      "fileId": "1794815679612",
+      "filePath": "03.项目管理/新项目/黑马点评.md",
+      "duration": 48000,
+      "openCount": 9
+    },
+    "01.文献阅读/文献笔记总索引.md": {
+      "fileId": "1794815697613",
+      "filePath": "01.文献阅读/文献笔记总索引.md",
+      "duration": 48000,
+      "openCount": 3
+    },
+    "02.生活记录/每日记录/2026-11-15 星期日.md": {
+      "fileId": "1794815811618",
+      "filePath": "02.生活记录/每日记录/2026-11-15 星期日.md",
+      "duration": 108000,
+      "openCount": 11
+    },
+    "02.生活记录/每日记录/2026-11-17.md": {
+      "fileId": "1794894945577",
+      "filePath": "02.生活记录/每日记录/2026-11-17.md",
+      "duration": 48000,
+      "openCount": 7
+    },
+    "02.生活记录/每日记录/2026-11-17 星期二.md": {
+      "fileId": "1794895305519",
+      "filePath": "02.生活记录/每日记录/2026-11-17 星期二.md",
+      "duration": 258000,
+      "openCount": 12
+    },
+    "模板/日记模板.md": {
+      "fileId": "1794895365574",
+      "filePath": "模板/日记模板.md",
+      "duration": 30000,
+      "openCount": 3
+    },
+    "Quick Capture.md": {
+      "fileId": "1794895419582",
+      "filePath": "Quick Capture.md",
+      "duration": 48000,
       "openCount": 3
     }
   }

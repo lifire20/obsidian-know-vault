@@ -472,7 +472,13 @@
     ]
   },
   "customVaultName": "",
-  "pinnedNotes": {},
+  "pinnedNotes": {
+    "00.主页/主页.md": {
+      "folder": true,
+      "tag": false,
+      "property": false
+    }
+  },
   "collapsedPinnedContexts": {},
   "fileIcons": {},
   "fileColors": {},
