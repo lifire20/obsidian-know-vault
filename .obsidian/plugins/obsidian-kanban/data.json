@@ -1,0 +1,6 @@
+{
+  "new-line-trigger": "shift-enter",
+  "new-note-folder": "99_Inbox",
+  "new-note-template": "00_System/Templates/读书看板模板.md",
+  "full-list-lane-width": false
+}

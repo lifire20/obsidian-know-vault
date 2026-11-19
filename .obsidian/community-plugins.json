@@ -1,12 +1,17 @@
 [
   "dataview",
   "homepage",
-  "full-calendar-remastered",
   "obsidian-weread-plugin",
   "obsidian-excalidraw-plugin",
   "notebook-navigator",
   "focus-time",
   "easy-typing-obsidian",
   "obsidian-tasks-plugin",
-  "quickadd"
+  "quickadd",
+  "calendar",
+  "templater-obsidian",
+  "periodic-notes",
+  "obsidian-kanban",
+  "apex-dashboard",
+  "kanban-embed"
 ]

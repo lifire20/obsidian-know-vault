@@ -1,5 +1,6 @@
 {
   "cssTheme": "Tokyo Night",
   "theme": "moonstone",
-  "accentColor": ""
+  "accentColor": "",
+  "showRibbon": true
 }

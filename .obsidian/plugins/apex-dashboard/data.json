@@ -1,0 +1,587 @@
+{
+  "dashboardFile": "dashboard-2",
+  "workspaceFiles": [
+    "dashboard",
+    "dashboard-2"
+  ],
+  "workspaceNames": [
+    "",
+    ""
+  ],
+  "recentDocCount": 5,
+  "language": "system",
+  "stylePreset": "mono",
+  "layoutMode": "immersive",
+  "habitHeightRatio": "twoThirds",
+  "readingHeightRatio": "half",
+  "sidebarWidth": 232,
+  "widgetUnitHeight": 300,
+  "widgetWeatherEnabled": false,
+  "widgetWeatherCity": "Shanghai",
+  "widgetWeatherLat": 31.23,
+  "widgetWeatherLon": 121.47,
+  "pomodoroEnabled": true,
+  "pomodoroWorkMinutes": 25,
+  "pomodoroShortBreakMinutes": 5,
+  "pomodoroLongBreakMinutes": 15,
+  "pomodoroLongBreakInterval": 4,
+  "pomodoroMode": "stopwatch",
+  "pomodoroStopwatchReminderMinutes": 0,
+  "pomodoroDailyGoal": 8,
+  "pomodoroAutoStartBreak": true,
+  "pomodoroSoundEnabled": true,
+  "pomodoroMiniPanelEnabled": true,
+  "widgetLunarEnabled": false,
+  "widgetYearProgressEnabled": false,
+  "widgetCalendarEnabled": true,
+  "calendarExcludeFolders": [],
+  "calendarTaskFilter": "all",
+  "calendarTaskInsertPosition": "start",
+  "widgetHabitEnabled": true,
+  "widgetExpenseEnabled": true,
+  "widgetSkillsEnabled": false,
+  "skillWidgetButtons": [],
+  "expenseCurrency": "¥",
+  "widgetAlbumEnabled": false,
+  "widgetAlbumFolder": "",
+  "widgetAlbumIntervalSec": 8,
+  "widgetAlbumRecursive": true,
+  "widgetAlbumRatio": "1:1",
+  "widgetAlbumTransition": "fade",
+  "albums": [],
+  "anniversaryEnabled": false,
+  "anniversaries": [
+    {
+      "id": "av-default",
+      "label": "纪念日",
+      "startDate": "2025-11-19",
+      "calendar": "solar",
+      "precision": "ymd",
+      "annualReminder": false,
+      "background": {
+        "image": "https://images.pexels.com/photos/10254198/pexels-photo-10254198.jpeg",
+        "opacity": 100,
+        "dim": 20,
+        "blur": 0,
+        "foreground": "light"
+      }
+    }
+  ],
+  "widgetMusicEnabled": true,
+  "musicVolume": 0.8,
+  "musicRepeatMode": "list",
+  "musicPlaylist": [
+    {
+      "id": 386844,
+      "name": "杀死那个石家庄人",
+      "artist": "万能青年旅店",
+      "album": "万能青年旅店 同名专辑",
+      "durationMs": 344253,
+      "fee": 8,
+      "picUrl": "https://p2.music.126.net/W1kczDCB4-r-uNAznD1ljg==/108851651165850.jpg"
+    },
+    {
+      "id": 1851572012,
+      "name": "Welcome to the Internet",
+      "artist": "Bo Burnham",
+      "album": "Inside (The Songs)",
+      "durationMs": 275999,
+      "fee": 8,
+      "picUrl": "https://p2.music.126.net/Zu-Qs9wTdE4S2OPOnn6OjA==/109951166070308737.jpg"
+    },
+    {
+      "id": 2086327879,
+      "name": "鲜花",
+      "artist": "回春丹",
+      "album": "鲜花",
+      "durationMs": 341377,
+      "fee": 8,
+      "picUrl": "https://p2.music.126.net/sOVQYvAwK8rGHrwd-wM1Og==/109951173409075892.jpg"
+    },
+    {
+      "id": 2135039564,
+      "name": "LABOUR (the cacophony)",
+      "artist": "Paris Paloma",
+      "album": "LABOUR (the cacophony)",
+      "durationMs": 247445,
+      "fee": 8,
+      "picUrl": "https://p2.music.126.net/g56kcUUCDV8hLZAjqu6VrQ==/109951169407123335.jpg"
+    },
+    {
+      "id": 1813960297,
+      "name": "Wellerman",
+      "artist": "Nathan Evans",
+      "album": "Wellerman",
+      "durationMs": 155333,
+      "fee": 1,
+      "picUrl": "https://p2.music.126.net/YmoD1Z42fQ7NzVq5_DlNgg==/109951165648346559.jpg"
+    },
+    {
+      "id": 428649319,
+      "name": "La gloire à mes genoux",
+      "artist": "Côme",
+      "album": "Le rouge et le noir - L’Opéra Rock",
+      "durationMs": 164954,
+      "fee": 8,
+      "picUrl": "https://p2.music.126.net/Ihj9xqzH8wSNf6R0LiuMcg==/109951169108036775.jpg"
+    },
+    {
+      "id": 277382,
+      "name": "盛夏的果实",
+      "artist": "莫文蔚",
+      "album": "含情莫莫 莫文蔚全精选辑",
+      "durationMs": 250795,
+      "fee": 1,
+      "picUrl": "https://p2.music.126.net/JdGvPPatuA7w9AfJL8yuJg==/109951173924598886.jpg"
+    },
+    {
+      "id": 108640,
+      "name": "阴天",
+      "artist": "莫文蔚",
+      "album": "作品李宗盛",
+      "durationMs": 242360,
+      "fee": 1,
+      "picUrl": "https://p2.music.126.net/DjFHDgJxYgByciKsCH3Tlg==/109951169614579889.jpg"
+    },
+    {
+      "id": 553310243,
+      "name": "后来的我们",
+      "artist": "五月天",
+      "album": "后来的我们 (眼泪未干版)",
+      "durationMs": 285033,
+      "fee": 1,
+      "picUrl": "https://p2.music.126.net/s6bXQX0M-H9EoeqGfr4wrg==/109951163250238942.jpg"
+    },
+    {
+      "id": 1888933954,
+      "name": "道别是一件难事",
+      "artist": "上海彩虹室内合唱团",
+      "album": "道别是一件难事",
+      "durationMs": 249000,
+      "fee": 8,
+      "picUrl": "https://p2.music.126.net/PNSDtZUDYbPRRuk7kJlywA==/109951166544751174.jpg"
+    },
+    {
+      "id": 37668008,
+      "name": "时间都去哪儿了",
+      "artist": "王铮亮",
+      "album": "故事岛",
+      "durationMs": 224052,
+      "fee": 1,
+      "picUrl": "https://p2.music.126.net/87lCVlUpz7hwYWDUd3TLZQ==/109951169775153273.jpg"
+    },
+    {
+      "id": 436514312,
+      "name": "成都",
+      "artist": "赵雷",
+      "album": "成都",
+      "durationMs": 328020,
+      "fee": 1,
+      "picUrl": "https://p2.music.126.net/57o5J3oaf1srPog40IU1Aw==/109951174184968965.jpg"
+    },
+    {
+      "id": 2006471955,
+      "name": "飞行模式",
+      "artist": "华晨宇",
+      "album": "希忘Hope",
+      "durationMs": 265814,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/cpppq3vKqjQ5YwzNYM_C7Q==/109951168244956668.jpg"
+    },
+    {
+      "id": 2006472449,
+      "name": "黑白艺术家",
+      "artist": "华晨宇",
+      "album": "希忘Hope",
+      "durationMs": 324881,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/cpppq3vKqjQ5YwzNYM_C7Q==/109951168244956668.jpg"
+    },
+    {
+      "id": 2006471567,
+      "name": "走，一起去看日出吧",
+      "artist": "华晨宇",
+      "album": "希忘Hope",
+      "durationMs": 275376,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/cpppq3vKqjQ5YwzNYM_C7Q==/109951168244956668.jpg"
+    },
+    {
+      "id": 2006484469,
+      "name": "虚幻与现实",
+      "artist": "华晨宇",
+      "album": "希忘Hope",
+      "durationMs": 303625,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/cpppq3vKqjQ5YwzNYM_C7Q==/109951168244956668.jpg"
+    },
+    {
+      "id": 2006485349,
+      "name": "当全世界忘了我",
+      "artist": "华晨宇",
+      "album": "希忘Hope",
+      "durationMs": 322332,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/cpppq3vKqjQ5YwzNYM_C7Q==/109951168244956668.jpg"
+    },
+    {
+      "id": 2006485344,
+      "name": "点燃银河尽头的篝火",
+      "artist": "华晨宇",
+      "album": "希忘Hope",
+      "durationMs": 307420,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/cpppq3vKqjQ5YwzNYM_C7Q==/109951168244956668.jpg"
+    },
+    {
+      "id": 2006484446,
+      "name": "向阳而生",
+      "artist": "华晨宇",
+      "album": "希忘Hope",
+      "durationMs": 349257,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/cpppq3vKqjQ5YwzNYM_C7Q==/109951168244956668.jpg"
+    },
+    {
+      "id": 2006472465,
+      "name": "花落时相遇",
+      "artist": "华晨宇",
+      "album": "希忘Hope",
+      "durationMs": 357071,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/cpppq3vKqjQ5YwzNYM_C7Q==/109951168244956668.jpg"
+    },
+    {
+      "id": 2662183065,
+      "name": "晨光里有你",
+      "artist": "华晨宇",
+      "album": "量变临界点",
+      "durationMs": 313653,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/Dz-vO_8bpeb-58AUtQON0Q==/109951170340533586.jpg"
+    },
+    {
+      "id": 2662183063,
+      "name": "人之爱",
+      "artist": "华晨宇",
+      "album": "量变临界点",
+      "durationMs": 335554,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/Dz-vO_8bpeb-58AUtQON0Q==/109951170340533586.jpg"
+    },
+    {
+      "id": 2662183062,
+      "name": "不重逢",
+      "artist": "华晨宇",
+      "album": "量变临界点",
+      "durationMs": 337491,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/Dz-vO_8bpeb-58AUtQON0Q==/109951170340533586.jpg"
+    },
+    {
+      "id": 2662185585,
+      "name": "怪诞心理学",
+      "artist": "华晨宇",
+      "album": "量变临界点",
+      "durationMs": 228826,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/Dz-vO_8bpeb-58AUtQON0Q==/109951170340533586.jpg"
+    },
+    {
+      "id": 2149854703,
+      "name": "永不熄灭的火焰",
+      "artist": "华晨宇",
+      "album": "量变临界点",
+      "durationMs": 339957,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/Dz-vO_8bpeb-58AUtQON0Q==/109951170340533586.jpg"
+    },
+    {
+      "id": 2104598736,
+      "name": "普通到不普通的人生",
+      "artist": "华晨宇",
+      "album": "量变临界点",
+      "durationMs": 261103,
+      "fee": 4,
+      "picUrl": "https://p2.music.126.net/Dz-vO_8bpeb-58AUtQON0Q==/109951170340533586.jpg"
+    },
+    {
+      "id": 2085452852,
+      "name": "风之海",
+      "artist": "华晨宇",
+      "album": "量变临界点",
+      "durationMs": 304353,
+      "fee": 4,
+      "picUrl": "https://p1.music.126.net/Dz-vO_8bpeb-58AUtQON0Q==/109951170340533586.jpg"
+    },
+    {
+      "id": 2662183060,
+      "name": "温暖的房子",
+      "artist": "华晨宇",
+      "album": "量变临界点",
+      "durationMs": 341556,
+      "fee": 4,
+      "picUrl": "https://p1.music.126.net/Dz-vO_8bpeb-58AUtQON0Q==/109951170340533586.jpg"
+    },
+    {
+      "id": 536937393,
+      "name": "孩子 (Live)",
+      "artist": "华晨宇",
+      "album": "歌手2018 第5期",
+      "durationMs": 321375,
+      "fee": 1,
+      "picUrl": "https://p1.music.126.net/Y3kEVLjsgr53mN862U2-Gg==/109951166557913236.jpg"
+    },
+    {
+      "id": 2040835953,
+      "name": "美好的事可不可以发生在我身上 (Live版)",
+      "artist": "华晨宇",
+      "album": "声生不息·宝岛季 第6期",
+      "durationMs": 350747,
+      "fee": 1,
+      "picUrl": "https://p1.music.126.net/P-XKVb5FsPN3B0rcjtK3hQ==/109951168554938029.jpg"
+    },
+    {
+      "id": 2152956085,
+      "name": "那些我尚未知道的美丽",
+      "artist": "华晨宇",
+      "album": "量变临界点",
+      "durationMs": 304166,
+      "fee": 4,
+      "picUrl": "https://p1.music.126.net/Dz-vO_8bpeb-58AUtQON0Q==/109951170340533586.jpg"
+    },
+    {
+      "id": 2006472464,
+      "name": "好想我回来啊",
+      "artist": "华晨宇",
+      "album": "希忘Hope",
+      "durationMs": 304945,
+      "fee": 4,
+      "picUrl": "https://p1.music.126.net/cpppq3vKqjQ5YwzNYM_C7Q==/109951168244956668.jpg"
+    },
+    {
+      "id": 2161934816,
+      "name": "向阳而生",
+      "artist": "华晨宇",
+      "album": "华晨宇日出演唱会特辑",
+      "durationMs": 702505,
+      "fee": 8,
+      "picUrl": "https://p1.music.126.net/w1A7-Eqx26C0-ANXd3NolA==/109951169646542385.jpg"
+    },
+    {
+      "id": 29418037,
+      "name": "微光",
+      "artist": "华晨宇",
+      "album": "卡西莫多的礼物",
+      "durationMs": 266746,
+      "fee": 8,
+      "picUrl": "https://p1.music.126.net/Wff5f8--i6hvGx_bQDWBxA==/109951165644539772.jpg"
+    },
+    {
+      "id": 1895330088,
+      "name": "予你",
+      "artist": "队长",
+      "album": "予你",
+      "durationMs": 231349,
+      "fee": 8,
+      "picUrl": "https://p1.music.126.net/yxVm_vRFOode6yP67NmMcA==/109951166625738075.jpg"
+    },
+    {
+      "id": 65766,
+      "name": "富士山下",
+      "artist": "陈奕迅",
+      "album": "What's Going On…?",
+      "durationMs": 258902,
+      "fee": 1,
+      "picUrl": "https://p1.music.126.net/oSMs7RzJFx0TgWCqRC8XjA==/109951171844247587.jpg"
+    },
+    {
+      "id": 1807799505,
+      "name": "唯一",
+      "artist": "告五人",
+      "album": "运气来得若有似无",
+      "durationMs": 270760,
+      "fee": 1,
+      "picUrl": "https://p1.music.126.net/5URIeP6GjMFg_hKhGloNTA==/109951165585701063.jpg"
+    },
+    {
+      "id": 1947530602,
+      "name": "TOMBOY (R3HAB Remix)",
+      "artist": "i-dle / R3HAB",
+      "album": "TOMBOY (R3HAB Remix)",
+      "durationMs": 129677,
+      "fee": 1,
+      "picUrl": "https://p1.music.126.net/nJtpYRMjOBN9HFSEJqYR9A==/109951167417880694.jpg"
+    },
+    {
+      "id": 30780496,
+      "name": "Mine (Illenium Remix)",
+      "artist": "ILLENIUM / Phoebe Ryan",
+      "album": "Mine (ILLENIUM Remix)",
+      "durationMs": 249808,
+      "fee": 8,
+      "picUrl": "https://p1.music.126.net/94Zjhb6ibXN9jpIjRQDbUw==/7762552092459017.jpg"
+    },
+    {
+      "id": 29357467,
+      "name": "卡西莫多的礼物",
+      "artist": "华晨宇",
+      "album": "卡西莫多的礼物",
+      "durationMs": 214480,
+      "fee": 8,
+      "picUrl": "https://p1.music.126.net/cvYJAL9f7aIhsV0OoF6eBw==/6636652185674282.jpg"
+    },
+    {
+      "id": 1449839395,
+      "name": "不再打扰",
+      "artist": "九谦",
+      "album": "不再打扰",
+      "durationMs": 315999,
+      "fee": 0,
+      "picUrl": "https://p1.music.126.net/h8KemT3yARFYeRFA-ZIITw==/109951165005641461.jpg"
+    },
+    {
+      "id": 32835565,
+      "name": "国王与乞丐",
+      "artist": "华晨宇 / 杨宗纬",
+      "album": "异类",
+      "durationMs": 245375,
+      "fee": 8,
+      "picUrl": "https://p1.music.126.net/UsSAd3Bdf77DjhCuTSEvUw==/109951163077613693.jpg"
+    },
+    {
+      "id": 29004400,
+      "name": "烟火里的尘埃",
+      "artist": "华晨宇",
+      "album": "烟火里的尘埃",
+      "durationMs": 321399,
+      "fee": 8,
+      "picUrl": "https://p1.music.126.net/_49Xz_x9kTTdEgmYYk6w2w==/6672936069046297.jpg"
+    }
+  ],
+  "musicCurrentIndex": 0,
+  "widgetQuickActionsEnabled": true,
+  "widgetQuickCaptureEnabled": false,
+  "widgetFileSearchEnabled": false,
+  "widgetOrder": [
+    "quickActions",
+    "pomodoro",
+    "calendar",
+    "music",
+    "habit",
+    "expense",
+    "countdown-cd-default",
+    "countdown-cd-2026-end"
+  ],
+  "wereadApiKey": "",
+  "wereadImportPath": "Weread/划线",
+  "ticktickRegion": "dida365",
+  "ticktickCookie": "",
+  "ticktickCsrf": "",
+  "ticktickTimezone": "Asia/Shanghai",
+  "disableNotePopover": false,
+  "customColors": {},
+  "bgImage": "",
+  "bgDim": 40,
+  "bgBlur": 0,
+  "bgSize": "cover",
+  "surfaceOpacity": null,
+  "glassBlur": null,
+  "radiusScale": null,
+  "fontScale": "medium",
+  "rssReadRetentionDays": 180,
+  "quickNotesEnabled": true,
+  "quickNotePresets": [],
+  "quickCaptureEnabled": true,
+  "quickCaptureMode": "search",
+  "quickCaptureTarget": "",
+  "quickCaptureFolder": "",
+  "quickCaptureTemplate": "",
+  "quickCapturePosition": "start",
+  "pinnedNotes": [],
+  "quickCommands": [
+    {
+      "id": "qn-mwn5doh3-hc7i",
+      "label": "QuickAdd: Run",
+      "icon": "terminal",
+      "commandId": "quickadd:runQuickAdd"
+    }
+  ],
+  "skillShortcuts": [],
+  "quickDailyEnabled": false,
+  "quickNoteGuideShownVersion": "",
+  "dataviewGuideShownVersion": "3.9.10",
+  "onboardingTourSeenVersion": "1",
+  "countdownEnabled": true,
+  "countdowns": [
+    {
+      "id": "cd-default",
+      "label": "New Year Countdown",
+      "targetDate": "2026-12-31T23:55",
+      "displayMode": "hours",
+      "reminderDays": 0,
+      "background": {
+        "image": "https://images.pexels.com/photos/31409439/pexels-photo-31409439.jpeg",
+        "opacity": 100,
+        "dim": 0,
+        "blur": 0,
+        "foreground": "light"
+      }
+    },
+    {
+      "id": "cd-2026-end",
+      "label": "2026年结束",
+      "targetDate": "2027-01-01T14:36",
+      "displayMode": "days",
+      "reminderDays": 0,
+      "background": {
+        "image": "附件/微信图片_20261013122513_2_1012.jpg",
+        "opacity": 100,
+        "dim": 45,
+        "blur": 0,
+        "foreground": "light"
+      }
+    }
+  ],
+  "mediaTags": {},
+  "materialConfig": {
+    "includeFolders": [],
+    "excludeFolders": [],
+    "skillButtons": []
+  },
+  "materialFavorites": [],
+  "materialFolderPages": [],
+  "readingEnabled": false,
+  "readingSoundEnabled": true,
+  "taskTemplates": [],
+  "memoSavePath": "02.生活记录/主页记录",
+  "memoTemplatePath": "",
+  "taskArchiveTarget": "file",
+  "taskArchivePath": "归档/已完成.md",
+  "libraryNewNotePath": "",
+  "backupEnabled": false,
+  "backupPeriod": "daily",
+  "backupMaxCount": 10,
+  "quickActionsBackground": {
+    "image": "附件/微信图片_20261013122513_2_1012.jpg",
+    "opacity": 100,
+    "dim": 0,
+    "blur": 0,
+    "foreground": "light"
+  },
+  "habitBackground": {
+    "image": "附件/微信图片_20261013122514_3_1012.jpg",
+    "opacity": 55,
+    "dim": 40,
+    "blur": 0,
+    "foreground": "light"
+  },
+  "musicBackground": {
+    "image": "附件/微信图片_20261013122520_9_1012.jpg",
+    "opacity": 30,
+    "dim": 35,
+    "blur": 0,
+    "foreground": "#ffffff"
+  },
+  "skillSourceFolders": ""
+}
